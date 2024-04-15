@@ -1,0 +1,78 @@
+.about-us {
+  min-height: 100vh;
+  background-image: url('../assets/blank background.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .about-logo {
+    width: 30%;
+    height: auto;
+    margin-left: 600px;
+    margin-bottom: 50px;
+  }
+  
+  .description {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 25px;
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgb(80, 77, 77);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(105, 103, 100, 0.932);
+    color: #807d7d;
+    border-radius: 10px;
+    padding: 30px 40px 10px;
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .top-left-button {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #ff9100;
+    color: rgb(36, 35, 35);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 7px 7px;
+    cursor: pointer;
+  }
+  
+  .top-left-button:hover {
+    background: #ff9100;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+
+  .about-img {
+    width: 450px;
+    height: auto;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
